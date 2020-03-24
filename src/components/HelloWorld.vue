@@ -27,12 +27,20 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+
+    <Overview></Overview>
+
   </div>
 </template>
 
 <script>
+import Overview from './Overview'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Overview
+  },
   props: {
     msg: String
   }
